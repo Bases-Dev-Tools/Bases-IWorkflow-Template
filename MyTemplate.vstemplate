@@ -11,8 +11,8 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>images\__TemplateIcon.png</Icon>
-    <PreviewImage>images\__PreviewImage.png</PreviewImage>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Bases-IWorkflow-Test-Harness.csproj" File="Bases-IWorkflow-Test-Harness.csproj" ReplaceParameters="true">
