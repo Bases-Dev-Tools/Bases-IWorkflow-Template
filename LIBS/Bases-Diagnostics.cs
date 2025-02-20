@@ -15,7 +15,7 @@
         public Hyland.Unity.Application app;
         public BasesDiagnostics(Hyland.Unity.Application app)
         {
-            this.app = app;\
+            this.app = app;
             // To Customize: All Evnironments that are not PROD rely on the InstallID, feel free to customize this to your needs.
             if (app.SystemProperties.IsProduction)
             {
