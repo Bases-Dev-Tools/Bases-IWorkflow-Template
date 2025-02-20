@@ -14,6 +14,8 @@ Clone the repository to this location, or extract the zip file to this location.
 
 `C:\Users\{user}\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates\Bases-IWorkflow-Test-Harness`
 
+> Place your Hyland.Unity.dll and Hyland.Types.dll in the references folder. You can find these DLL's in almost any Hyland folder, but the easiest place to look it the root directory of your AppServer64. 
+
 ### Creating A New Project
 
 1. Open Visual Studio and choose to create a new project.
