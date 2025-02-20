@@ -18,15 +18,15 @@ Clone the repository to this location, or extract the zip file to this location.
 
 1. Open Visual Studio and choose to create a new project.
 
-   <img src="file:///images/2025-02-08-13-07-47-image.png" title="" alt="" width="420">
+   <img title="" src="https://oqmzkfscaubtgzaxunjo.supabase.co/storage/v1/object/public/resources/images/2025-02-08-13-07-47-image.png" alt="" width="420">
 
 2. In the search bar, type "bases" to filter the results.
 
-   ![](C:\Users\jacob\AppData\Roaming\marktext\images\2025-02-08-13-08-48-image.png)
+   <img title="" src="https://oqmzkfscaubtgzaxunjo.supabase.co/storage/v1/object/public/resources/images/2025-02-08-13-08-48-image.png" alt="" width="324">
 
 3. Finish setting up your project, and it will open with a Solution Tree that looks like this:
 
-   <img src="file:///images/2025-02-08-13-10-17-image.png" title="" alt="" width="324">
+   <img title="" src="https://oqmzkfscaubtgzaxunjo.supabase.co/storage/v1/object/public/resources/images/2025-02-08-13-10-17-image.png" alt="" width="324">
 
 4. You're all ready to go. Your entry point for writing the Unity Script is the "Workflow_Template.cs".
 
