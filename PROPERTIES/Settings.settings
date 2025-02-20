@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EIS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Evironment" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Development</Value>
+    </Setting>
+    <Setting Name="Item" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">9192659</Value>
+    </Setting>
+    <Setting Name="AppServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://dev-enterpriseimagingsolutions-onbaseapp.rgare.net/onbase_241/service.asmx</Value>
+    </Setting>
+    <Setting Name="DataSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Onbase_DEV</Value>
+    </Setting>
+    <Setting Name="LifeCycle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EIS - Dashboard Reports</Value>
+    </Setting>
+    <Setting Name="Queue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Initial</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{User}</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{password}</Value>
+    </Setting>
+    <Setting Name="ContentType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Document</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

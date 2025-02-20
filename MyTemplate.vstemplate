@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Bases-IWorkflow-Test-Harness</Name>
+    <Description>Quickly Create and Test Workflow based Unity Scripts</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Bases-IWorkflow-Test-Harness</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>images\__TemplateIcon.png</Icon>
+    <PreviewImage>images\__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Bases-IWorkflow-Test-Harness.csproj" File="Bases-IWorkflow-Test-Harness.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName=".gitignore">.gitignore</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="interfaces" TargetFolderName="interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IWorkflowScript.cs">IWorkflowScript.cs</ProjectItem>
+        <Folder Name="types" TargetFolderName="types">
+          <ProjectItem ReplaceParameters="true" TargetFileName="types.cs">types.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="libs" TargetFolderName="libs">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Bases-Diagnostics.cs">Bases-Diagnostics.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="references" TargetFolderName="references">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Hyland.Types.dll">Hyland.Types.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Hyland.Unity.dll">Hyland.Unity.dll</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Workflow_Template.cs">Workflow_Template.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
