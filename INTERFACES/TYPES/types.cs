@@ -69,7 +69,7 @@ namespace Bases.Types
 
         public PropertyBag SessionPropertyBag { get; set; }
 
-        public WorkflowEventArgs(Hyland.Unity.Document document, Hyland.Unity.Workflow.Queue queue, $safeprojectname$.Types.PropertyBag sessionPropertyBag, $safeprojectname$.Types.PropertyBag scopedPropertyBag, $safeprojectname$.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
+        public WorkflowEventArgs(Hyland.Unity.Document document, Hyland.Unity.Workflow.Queue queue, Bases.Types.PropertyBag sessionPropertyBag, Bases.Types.PropertyBag scopedPropertyBag, Bases.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
             : base(document)
         {
             Queue = queue;
@@ -80,7 +80,7 @@ namespace Bases.Types
             ScriptResult = scriptResult;
         }
 
-        public WorkflowEventArgs(Folder folder, Hyland.Unity.Workflow.Queue queue, $safeprojectname$.Types.PropertyBag sessionPropertyBag, $safeprojectname$.Types.PropertyBag scopedPropertyBag, $safeprojectname$.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
+        public WorkflowEventArgs(Folder folder, Hyland.Unity.Workflow.Queue queue, Bases.Types.PropertyBag sessionPropertyBag, Bases.Types.PropertyBag scopedPropertyBag, Bases.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
             : base(folder)
         {
             Queue = queue;
@@ -91,7 +91,7 @@ namespace Bases.Types
             ScriptResult = scriptResult;
         }
 
-        public WorkflowEventArgs(Hyland.Unity.WorkView.Object wvObject, Hyland.Unity.Workflow.Queue queue, $safeprojectname$.Types.PropertyBag sessionPropertyBag, PropertyBag scopedPropertyBag, PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
+        public WorkflowEventArgs(Hyland.Unity.WorkView.Object wvObject, Hyland.Unity.Workflow.Queue queue, Bases.Types.PropertyBag sessionPropertyBag, PropertyBag scopedPropertyBag, PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
             : base(wvObject)
         {
             Queue = queue;
@@ -102,7 +102,7 @@ namespace Bases.Types
             ScriptResult = scriptResult;
         }
 
-        public WorkflowEventArgs(EISMessageItem eisMessageItem, Hyland.Unity.Workflow.Queue queue, $safeprojectname$.Types.PropertyBag sessionPropertyBag, $safeprojectname$.Types.PropertyBag scopedPropertyBag, $safeprojectname$.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
+        public WorkflowEventArgs(EISMessageItem eisMessageItem, Hyland.Unity.Workflow.Queue queue, Bases.Types.PropertyBag sessionPropertyBag, Bases.Types.PropertyBag scopedPropertyBag, Bases.Types.PropertyBag persistentPropertyBag, long batchDocumentsRemaining, bool scriptResult)
         {
             EISMessageItem = eisMessageItem;
             Queue = queue;
